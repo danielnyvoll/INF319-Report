@@ -1,0 +1,125 @@
+\subsection*{Implementation}
+
+\subsubsection*{Test Driven Development}
+
+3.1 TDD
+
+The implementation of Test-Driven Development (TDD) in our project commenced with the creation of unit tests before the actual coding of the application. We used testing frameworks like Jest and Vitest to write tests for core functionalities. For instance, we wrote tests to ensure the correct conversion of location names to geographic coordinates, a fundamental feature for our weather application. These tests validated the functionality of our geocoding utility and weather API services, ensuring that, for example, inputting 'New York' would correctly yield the expected latitude and longitude. Our project's testing phase was designed to maintain identical logic across Svelte, React, and Vue, allowing us to compare each developer's experience in achieving the required test outcomes. The journey to passing the tests provided insights into the user-friendliness of each framework, the quality and accessibility of their documentation, the richness of resources available, and the level of community support. These factors collectively offered a measure of each framework's approachability and practicality from a developer's perspective, influencing our overall evaluation of the tools.
+
+
+
+
+
+\subsubsection*{React Implementation}
+
+3.1 React Implementation
+
+The React application is constructed with a focus on modular design, leveraging the power of React's component-based architecture. Each component is tailored to fulfill specific functionalities, contributing to a cohesive user experience. The application effectively utilizes state management through React hooks and engages with external APIs, ensuring dynamic content delivery and interaction.
+
+Routing and Application Structure
+
+
+
+
+The code snippet above is part of the App.js file. It illustrates the App component, which is responsible for the applications routing structure. It utilizes the Router component to define the applications navigation. Inside the Router, various Route components map URL paths to corresponding React components. For instance, the path /weather is associated with the WeatherApp component, while /active-transportation is linked to the Active-transportation component. There are also placeholder routes, which serve as temporary stubs for future implementation, denoted by the PlaceHolderApp component.
+
+React root rendering: 
+
+
+This code snippet is from the index.js file. It showcases the root rendering process of the React application. It uses React.StrictMode, which is a tool for highlighting potential problems in an application. I do not render any visible UI, but activates additional checks and warnings for its descendants. It is then passed to REACTDOM.createRoot, signifying the entry point of the application. This is where React elements are rendered into the DOM, with the root DOM node being provided by document.getElementByID(‘root’). This is what kickstarts the React application’s rendering process. 
+
+
+Component Analysis: 
+
+Reactive System and State Management:
+
+The application's use of React hooks across several components like LocationMap.jsx, SearchBar.jsx, and Weather App.jsx. modern approach to state management. This setup ensures a responsive and user-friendly interface, capable of efficiently handling state changes and asynchronous operations.
+
+For instance, in SearchBar.jsx React's useState  hook is employed to manage the state of the user's search input. This allows for an instantaneous and responsive feedback loop between the user input and the application's state. An example from the code illustrates this:
+
+
+in the code snippet above we have the following key elements: 
+useState hook. This is used to declare the state variable “searchTerm” and its updater function “setSearchTerm”. It is initialized with an empty string, and the state holds the current value of the search input. 
+handleInputChange is an event handler function that updates the searchTerms state when with the value entered by the the user in the search input field
+handleKeyPress is another event handler that listens for the “Enter” key press to trigger the search function passed as a prop. 
+
+The component is designed to be reactive and responsive to user input, utilizing the useState hook for management and providing a clean and intuitive interface for users to perform search queries. 
+Interaction with External APIs:
+
+
+The application integrates with external APIs to enhance its feature set. In the code snippet above we see an example on how it is done in WeatherApp.jsx
+
+An asynchronous function search is defined to handle retrieval of location coordinates and weather data. The application first uses Mapbox's Geocoding API to convert a location input into geographical coordinates. It constructs a request URL with the user's input from the cityInput field. Upon receiving the response, the application parses the JSON to extract latitude and longitude coordinates, which are then used to set the application's state with setLongitude and setLatitude.
+
+With the coordinates obtained from Mapbox, the application proceeds to fetch weather data from the OpenWeatherMap API. It constructs a new request URL, including the latitude and longitude, and specifies the desired units as metric. The resulting weather data is obtained asynchronously, and the application updates the state with various weather details such as temperature, location name, humidity, wind speed, and a description of the current weather.
+
+Once the data is retrieved and the state is updated, these values are used to update the UI, providing users with real-time weather information for the queried location. This is done using all the “set” functions. When these functions are called with new data retrieved from the API, they trigger a re-render of the component. 
+
+\subsubsection*{Vue Implementation}
+3.2 Vue Implementation: 
+
+
+
+Vue Router:
+Implementing routing functionality in Vue was remarkably straightforward and intuitive, primarily due to the seamless integration and alignment of Vue Router with the core Vue.js framework. Vue Router's declarative routing configuration, which leverages a simple and clear JavaScript object syntax, made it particularly easy to define and manage routes. This approach, combined with Vue's component-based architecture, allowed for an efficient and hassle-free setup of navigational structures within the application. Additionally, the comprehensive and well-organized documentation of Vue Router provided excellent guidance, further simplifying the implementation process.
+
+Here is a code snippet of the implementation of Vue Router.
+
+Component-based Development: 
+The encapsulation of Vue components proved to be an intuitive and streamlined process, particularly advantageous for those new to frontend development. Components like SearchBar.vue or WeatherDisplay.vue function as standalone units, each with their dedicated HTML, CSS, and JavaScript. This encapsulation enables a focused approach on individual parts of the application, mitigating concerns about unintended interactions with other segments. The encapsulation was quickly recognized as beginner-friendly at the onset of development.
+
+For example, WeatherDisplay.vue encapsulates the template, script, and style in a single file. The HTML structure, reactive data properties, methods, and component-specific styles are all consolidated, simplifying both development and troubleshooting.
+
+The use of the 'scoped' attribute in the <style> tag is notably advantageous. It guarantees that the defined CSS styles are confined to the component, avoiding accidental style conflicts.
+
+The facility to transfer data and methods via props and to issue events lends to the high reusability and maintainability of the components. Components like SearchBar.vue can be confidently utilized across various parts of the application, ensuring consistent and independent functionality.
+
+The organization and modularity offered by Vue’s component system greatly reduce the complexity in developing an intricate web application, enabling a foundational understanding of each part of the application before their integration, which is substantially beneficial for learning frontend development effectively.
+
+Reactive Data System:
+The reactive data system in Vue.js offers a robust and streamlined mechanism for binding data to the user interface, facilitating the development of dynamic interfaces that update in real time. This system represents a paradigm shift away from the manual manipulation of the DOM, automating UI updates in response to state changes within the application.
+In the context of the WeatherDisplay.vue component, the employment of Vue's reactive properties significantly simplifies the presentation of weather data. Through the declaration of a reactive data property within the component's data function, a direct linkage is established between the data and the template. Consequently, any modifications to the weather data are promptly and automatically mirrored in the UI, negating the need for extraneous code. This not only enhances efficiency but also underscores Vue's capability to streamline front-end development, particularly for those new to the framework.
+
+Code snippets from WeatherDisplay.vue component, displaying current weather, demonstrating the use of reactive data binding: 
+
+The {{ placeName }} interpolates the placeName data property into the heading. Whenever placeName changes, the content within the header tag will automatically update to reflect the new value.
+
+The temperature, wind speed, and humidity are also dynamically rendered using data binding. 
+For example, {{ weatherData.properties.timeseries[0].data.instant.air_temperature }} accesses the air_temperature property of the first item in the timeseries array from the weatherData object. This temperature value is displayed in the template.
+
+Moreover, the v-if directive provides a declarative approach to controlling the visibility of DOM elements. It is used to conditionally render the container div for the weather data, based on the presence and truthiness of weatherData. This technique enhances the interface's reactivity and user experience by only presenting relevant information when data is available. The effectiveness of directives like v-if in managing the DOM underscores the strengths of Vue.js in creating interactive and reactive web applications.
+
+Working with external APIs:
+Engaging with external APIs within a Vue.js context proved to be an enriching educational experience, particularly in understanding and managing asynchronous operations. Initially, concepts such as asynchronous programming and API response handling appeared complex. However, the utilization of axios, a promise-based HTTP client, considerably simplified these tasks.
+
+A practical application of this was demonstrated in the getCoordinatesFromName function, designed to transform a location name into geographic coordinates through the OpenStreetMap API. This function showcases the streamlined handling of HTTP requests facilitated by axios.
+
+The use of async/await syntax in conjunction with axios greatly enhanced the readability and maintainability of the code. It allowed for writing asynchronous functions in a style reminiscent of synchronous code, thus simplifying the understanding and implementation. The getCoordinatesFromName function needed only the location name to perform its operation, handling the complexities of asynchronous requests and error management internally.
+
+Following the acquisition of coordinates, the fetchWeatherData function was employed to retrieve weather data. 
+
+These functionalities were integrated into a searchLocationByName function, providing a cohesive and user-friendly method for fetching and displaying weather data based on location names. This process underscored the importance of logical structuring in API calls and illustrated the effectiveness of JavaScript's advanced features in external API interactions. Such experiences highlighted the significance of adeptly handling asynchronous operations and leveraged the capabilities of modern JavaScript to enhance the application's functionality.
+
+CSS and Responsive Design:
+I discovered that implementing CSS and responsive design within my Vue components was both gratifying and educational. Initially, the thought of making my application look good on various devices seemed like a complex task. However, Vue's scoped styling feature was a great help. 
+
+Challenges: 
+Initial development stages revealed complexities in passing data between components lacking a direct parent-child relationship. It became evident that while props and events are suitable for communication within a direct lineage, they are insufficient for components situated far apart in the hierarchy. This prompted an exploration of the Vue.js ecosystem for solutions, leading to the discovery of state management patterns such as Vuex. 
+
+\subsubsection*{Svelte Implementation}
+3.3 Svelte implementation:
+
+The Svelte application encapsulates a modular design ethos, mirroring the contemporary practices of component-based frameworks. In this Svelte-based project, each component is meticulously crafted to fulfill a discrete functional role, contributing to an integrated and seamless user experience. The application showcases a robust implementation of reactive state management, capitalizing on Svelte's innate reactivity and store capabilities.
+
+The core of the application's routing is managed within the +page.svelte file, demonstrating Svelte's file-based routing mechanism. This approach is distinctly Svelte, where routes are implicitly defined through the file structure, streamlining the mapping of URL paths to Svelte components. The Menu.svelte component is responsible for navigating to different parts of the application, such as the weather view or the active transportation information section.
+
+The application's reactive system is powered by Svelte's reactive stores, as seen in the store.js file. Svelte's reactivity is straightforward and less boilerplate-heavy compared to other frameworks, as any variable declared as writable in the store becomes reactive across the application. In Svelte, the $ symbol is used to denote a store value and to establish a reactive subscription to the store's changes. When the value of a store changes, any component that uses the $ syntax to refer to that store will automatically re-render to reflect the new value. The figure show the initialisation of the map by using the dollar sign:
+
+Svelte's architecture is distinguished by its lifecycle hooks, which provide developers with fine-grained control over the behavior of components during their lifecycle events. Among these, onMount is a particularly crucial lifecycle hook used to run code when a component is first introduced into the DOM as seen in the figure.
+The onMount function is typically employed for initialization tasks such as fetching data, setting up subscriptions, or directly interacting with the DOM, tasks that should only be executed once when the component is created.
+Interacting with external APIs is a critical feature of the application. The code snippet provided indicates a function that interfaces with the Mapbox API, searching for locations based on user input. The seamless integration of API calls within Svelte components is indicative of the framework's promise to keep things simple and concise. The fetchData function shown in Figure??
+
+Svelte's straightforward approach to incorporating asynchronous operations, showing how data fetched from an external weather API is utilized to update the reactive variables in the store, consequently refreshing the UI with new data.
+The Svelte syntax allows for co-locating markup, script, and style, which is visible in the comprehensive <script> and <style>, making the codebase more maintainable and approachable.
+
+
