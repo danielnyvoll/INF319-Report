@@ -1,5 +1,11 @@
 \documentclass[11pt]{article}
 
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{caption}
+
+
 \usepackage{a4wide}
 \usepackage{mathptm}
 \usepackage{xspace}
@@ -12,6 +18,8 @@
 \usetikzlibrary{shapes.misc, positioning}
 \usepackage{listings}
 \usepackage{color}
+\usepackage{biblatex}
+\addbibresource{Report.bib}
 
 \setlength{\parskip}{1em} % adds space between paragraphs
 \setlength{\parindent}{0pt} % removes paragraph indentation
@@ -19,7 +27,8 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
-\lstset{frame=tb,
+\lstset{
+  frame=tb,
   language=Java,
   aboveskip=3mm,
   belowskip=3mm,
@@ -35,36 +44,27 @@
   breakatwhitespace=true,
   tabsize=3
 }
+
 \begin{document}
 
-\title{Framework Face Off}
-
-\author{Jonatan Valen, Daniel Nyvoll & Vegard Vasset}
-
+\title{\Huge Framework Face Off}
+\author{Jonatan Valen, Daniel Nyvoll \& Vegard Vasset}
 \maketitle
 
 \begin{abstract}
-
-  10-15 lines with the software technology and the highlights from the
-  project that has been undertaken.
+  In our comparative study titled "Framework Face Off," we conducted an analysis of the three front-end frameworks: React, Vue, and Svelte. This study aimed to determine their suitability for developing a weather application, evaluating aspects such as ease of integration, performance, documentation, community support, and learning curve. React, with its robust ecosystem and strong community, excels in dynamic data handling. Vue offers ease of use and a friendly learning curve, while Svelte stands out for its efficient performance and less boilerplate code. Our findings provide vital insights into each framework's capabilities, aiding developers in making informed choices for their web development projects.
 
 \end{abstract}
 
-%\input{commands}
-
+% \input{commands}
 \input{sections/introduction}
-
 \input{sections/background}
-
 \input{sections/implementation}
-
 \input{sections/evaluation}
-
 \input{sections/discussion}
-
 \input{sections/conclusion}
+\input{sections/references.tex}
 
-\bibliographystyle{plain}
-\bibliography{report.bib}{}
+\printbibliography
 
 \end{document}

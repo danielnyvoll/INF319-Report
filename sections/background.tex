@@ -3,11 +3,10 @@
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{figs/popularity.png}
-\caption{Popularity}
+\caption{Representing the popularity trends of various web development frameworks over a period from 2016 to 2019.}
 \label{fig:popularity}
 \end{figure}
 
-Representing the popularity trends of various web development frameworks over a period from 2016 to 2019
 
 React, known for its robust ecosystem and backing by Facebook, has consistently held a significant share of popularity, while Vue.js has emerged as a strong contender with its approachable learning curve and incremental adoptability. Meanwhile, Svelte, the newest among them, presents an innovative approach by shifting work to compile time, leading to faster runtime performances.
 
@@ -42,7 +41,7 @@ The design and implementation of Vue.js involve a balance of technical details a
 
 React, a JavaScript library developed by Facebook, has significantly transformed web application development. Its primary strength lies in its component-based architecture, which enables developers to build self-contained, state-managing components. This approach not only facilitates the creation of complex and reusable user interfaces but also as stated by (Novac et al. 1) that; “It is easy to build interactive applications with React.js because it makes views for each state of the application. When data is changed the framework React.js will perform the update and render the appropriate components.“
 
-The library's declarative nature is another important part of its functionality. In React, developers define the desired state of the user interface, leaving the responsibility of actual DOM (Document Object Model) updates to React itself even though the paper Detecting code smells in React-based Webapps says that “React beginners usually use plain vanilla JavaScript to direct access a HTML DOM element, which can cause inconsistencies between React’s virtual DOM and the real DOM.” (Ferreira and Valente 5). This method ensures efficient rendering processes, as React compares the component's current state with its previous state and updates only the parts that have changed, not the entire page. Such an approach is particularly advantageous for the maintainability of large-scale applications, as it significantly enhances performance and streamlines the development workflow.
+The library's declarative nature is another important part of its functionality. In React, developers define the desired state of the user interface, leaving the responsibility of actual DOM updates to React itself even though the paper detecting code smells in React-based Webapps says that “React beginners usually use plain vanilla JavaScript to direct access a HTML DOM element, which can cause inconsistencies between React’s virtual DOM and the real DOM.” (Ferreira and Valente 5). This method ensures efficient rendering processes, as React compares the component's current state with its previous state and updates only the parts that have changed, not the entire page. Such an approach is particularly advantageous for the maintainability of large-scale applications, as it significantly enhances performance and streamlines the development workflow.
 
 Moreover, React's lifecycle management provides developers with fine control over the behavior of components. This control is crucial for managing the various states in the application lifecycle, from initialization to updating and unmounting, allowing developers to execute specific code at each stage. The comprehensive ecosystem surrounding React, which includes tools like React Native for mobile app development and numerous third-party libraries, further extends its capabilities.
 
@@ -52,4 +51,4 @@ Svelte, a groundbreaking framework in web development, was introduced by Rich Ha
 
 According to Bhardwaz and Godha, “Svelte also offers a more intuitive and straightforward way to build web applications. Instead of using a complex set of APIs, Svelte's syntax is easy to understand and follow, making it a great choice for developers who are new to web development.” (Bhardwaz and Godha, 2023, 1). Its syntax is cleaner and more intuitive, requiring less boilerplate code, which enhances code readability and maintainability. Svelte's reactive programming model is integrated into its language, streamlining state management and reducing reliance on external libraries.
 
-Building upon the strengths of Svelte, SvelteKit (“Introduction • Docs • SvelteKit”) is a framework that I have been using, designed to create more complex and scalable web applications. SvelteKit extends Svelte's capabilities, providing server-side rendering, file-based routing, and full-stack capabilities. This makes SvelteKit a more complete solution for modern web development, allowing for the creation of both static sites and server-rendered applications with the same ease and efficiency that Svelte offers.
+Building upon the strengths of Svelte, SvelteKit (“Introduction • Docs • SvelteKit”) is a framework thats designed to create more complex and scalable web applications. SvelteKit extends Svelte's capabilities, providing server-side rendering, file-based routing, and full-stack capabilities. This makes SvelteKit a more complete solution for modern web development, allowing for the creation of both static sites and server-rendered applications with the same ease and efficiency that Svelte offers.
