@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  11 DEC 2023 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  11 DEC 2023 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,7 +432,7 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 38.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -442,20 +442,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count321
@@ -476,33 +476,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count327
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 45.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 45.
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 45.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 45.
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 
-/Users/jonatanvalen/Documents/Studiefag/INF319/INF319-Report/Report.tex:45: Extra alignment tab has been changed to \cr.
+/Users/jonatanvalen/Documents/Studiefag/INF319/INF319-Report/Report.tex:44: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.45 \maketitle
+l.44 \maketitle
                
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -511,205 +511,291 @@ So I'll assume that you meant to type \cr instead.
 (./sections/introduction.tex) (./sections/background.tex [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+<figs/popularity.png, id=11, 253.24612pt x 143.93774pt>
+File: figs/popularity.png Graphic file (type png)
+<use figs/popularity.png>
+Package pdftex.def Info: figs/popularity.png  used on input line 5.
+(pdftex.def)             Requested size: 442.65375pt x 251.61806pt.
+ [2 <./figs/popularity.png>]
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...ions of React, Vue, Angular, and Svelte​
+l.24 ...ions of React, Vue, Angular, and Svelte​
                                                   ​ (Wichmann). It highlig...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...s of React, Vue, Angular, and Svelte​​
+l.24 ...s of React, Vue, Angular, and Svelte​​
                                                    (Wichmann). It highlights...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...ghting the efficiency of Vue and Svelte​
+l.24 ...ghting the efficiency of Vue and Svelte​
                                                   ​​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...ing the efficiency of Vue and Svelte​​
+l.24 ...ing the efficiency of Vue and Svelte​​
                                                   ​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ... the efficiency of Vue and Svelte​​​
+l.24 ... the efficiency of Vue and Svelte​​​
                                                   ​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:15: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:24: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...e efficiency of Vue and Svelte​​​​
+l.24 ...e efficiency of Vue and Svelte​​​​
                                                   .
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...ct, "Vue vs React vs Svelte" (Faulkner)​
+l.26 ...ct, "Vue vs React vs Svelte" (Faulkner)​
                                                   ​. This article provides...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ... "Vue vs React vs Svelte" (Faulkner)​​
+l.26 ... "Vue vs React vs Svelte" (Faulkner)​​
                                                   . This article provides a ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...acticality in various industry settings​
+l.26 ...acticality in various industry settings​
                                                   ​​​​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...icality in various industry settings​​
+l.26 ...icality in various industry settings​​
                                                   ​​​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...lity in various industry settings​​​
+l.26 ...lity in various industry settings​​​
                                                   ​​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...y in various industry settings​​​​
+l.26 ...y in various industry settings​​​​
                                                   ​​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...n various industry settings​​​​​
+l.26 ...n various industry settings​​​​​
                                                   ​.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./sections/background.tex:16: LaTeX Error: Unicode character ​ (U+200B)
+./sections/background.tex:26: LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...arious industry settings​​​​​​
+l.26 ...arious industry settings​​​​​​
                                                   .
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-) [2] (./sections/implementation.tex [3] [4] [5]
-./sections/implementation.tex:88: Missing $ inserted.
+
+./sections/background.tex:34: LaTeX Error: Unicode character ​ (U+200B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ... using additional libraries and tooling​
+                                                  ​ (Copes, 2018).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./sections/background.tex:34: LaTeX Error: Unicode character ​ (U+200B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...ing additional libraries and tooling​​
+                                                   (Copes, 2018).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[3] [4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 55.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) (./sections/implementation.tex [5] (./code/ReactApp.js) (./code/ReactIndex.js) [6] (./code/ReactSearchBar.js) (./code/ReactSearch.js [7]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 12.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Overfull \hbox (189.48827pt too wide) in paragraph at lines 12--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (204.18681pt too wide) in paragraph at lines 23--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+./code/ReactSearch.js:30: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...erature(Math.floor(data.main.temp) + "°c"
+                                                  );
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) [8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./code/VueRouter.js) [9] (./code/VueWeatherData.Vue
+
+./code/VueWeatherData.Vue:6: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...data.instant.details.air_temperature }}°C<
+                                                  /p>
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (4.69226pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][] 
+ []
+
+[10])
+./sections/implementation.tex:91: Missing $ inserted.
 <inserted text> 
                 $
-l.88 ...properties.timeseries[0].data.instant.air_
+l.91 ...properties.timeseries[0].data.instant.air_
                                                   temperature }} accesses th...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
-./sections/implementation.tex:88: Extra }, or forgotten $.
-l.88 ...meseries[0].data.instant.air_temperature }
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+./sections/implementation.tex:91: Extra }, or forgotten $.
+l.91 ...meseries[0].data.instant.air_temperature }
                                                   } accesses the air_tempera...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -717,8 +803,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./sections/implementation.tex:88: Extra }, or forgotten $.
-l.88 ...eseries[0].data.instant.air_temperature }}
+./sections/implementation.tex:91: Extra }, or forgotten $.
+l.91 ...eseries[0].data.instant.air_temperature }}
                                                    accesses the air_temperat...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -726,52 +812,80 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./sections/implementation.tex:89: Missing $ inserted.
+./sections/implementation.tex:92: Missing $ inserted.
 <inserted text> 
                 $
-l.89 
+l.92 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (536.92041pt too wide) in paragraph at lines 87--89
+Overfull \hbox (536.92041pt too wide) in paragraph at lines 90--92
 \OT1/ptm/m/n/10.95 am-ple,  weatherData.properties.timeseries[0].data.instant.air$[]\OML/ptmcm/m/it/10.95 emperatureaccessestheair[]emperaturepropertyofthefirstiteminthetimeseriesarrayfromtheweatherDataobject:Thistemperaturevalueisdisplayedinthetemplate:$ 
  []
 
-[6]
-Overfull \hbox (220.10304pt too wide) in paragraph at lines 116--117
-\OML/ptmcm/m/it/10.95 symbolisusedtodenoteastorevalueandtoestablishareactivesubscriptiontothestore[]schanges:Whenthevalueofastorechanges; anycomponentthatusesthe$
+(./code/VueGetCords.js) [11] (./code/VueSearchLoc.js) (./code/plusspage.svelte [12]) (./code/store.js) (./code/OnMount.svelte
+Overfull \hbox (73.99174pt too wide) in paragraph at lines 2--4
+[][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
+) [13] (./code/fetchData.svelte
+Overfull \hbox (308.13458pt too wide) in paragraph at lines 4--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
 
-Overfull \hbox (2.29504pt too wide) in paragraph at lines 122--124
+)
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 136.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 136.
+
+Overfull \hbox (2.29504pt too wide) in paragraph at lines 135--137
 []\OT1/ptm/m/n/10.95 Svelte's straight-for-ward ap-proach to in-cor-po-rat-ing asyn-chronous op-er-a-tions, show-ing how data fetched
  []
 
-[7]) (./sections/evaluation.tex [8]) (./sections/discussion.tex [9]) (./sections/conclusion.tex) (./Report.bbl
+) (./sections/evaluation.tex [14]
+<figs/progress.png, id=59, 416.15475pt x 269.20575pt>
+File: figs/progress.png Graphic file (type png)
+<use figs/progress.png>
+Package pdftex.def Info: figs/progress.png  used on input line 19.
+(pdftex.def)             Requested size: 442.65375pt x 286.36722pt.
+ [15] [16 <./figs/progress.png>]) [17] (./sections/discussion.tex
+<figs/compare.png, id=70, 679.53876pt x 147.55125pt>
+File: figs/compare.png Graphic file (type png)
+<use figs/compare.png>
+Package pdftex.def Info: figs/compare.png  used on input line 5.
+(pdftex.def)             Requested size: 442.65375pt x 96.11429pt.
+ [18 <./figs/compare.png>]) (./sections/conclusion.tex) (./Report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [10] (./Report.aux) )
+) [19] (./Report.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 88 ({)
-### simple group (level 1) entered at line 88 ({)
+### simple group (level 2) entered at line 91 ({)
+### simple group (level 1) entered at line 91 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16183 strings out of 476025
- 324996 string characters out of 5790016
- 1861388 words of memory out of 5000000
- 36313 multiletter control sequences out of 15000+600000
- 546785 words of font info for 93 fonts, out of 8000000 for 9000
+ 16825 strings out of 476025
+ 332680 string characters out of 5790016
+ 1904388 words of memory out of 5000000
+ 36899 multiletter control sequences out of 15000+600000
+ 546958 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,89p,1319b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (10 pages, 87499 bytes).
+ 84i,6n,89p,1319b,1874s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (19 pages, 367904 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
